@@ -12,7 +12,7 @@ entity systems : managed {
         sid                : String(8);
         external_id        : String(6);
         system_role        : String;
-        lifecycle_status   : Association to life_cycle_status;
+        lifecycle_status   : Association to life_cycle_status default 'L';
         db_type            : String;
         network_seg_id     : String;
         business_type      : String(5);
