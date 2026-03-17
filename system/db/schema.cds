@@ -65,4 +65,5 @@ entity admin_data : managed {
         created_by : String default $user.id;
         changed_at : Timestamp default $session.Timestamp;
         changed_by : String default $user.id;
+        
 }
